@@ -24,7 +24,7 @@ body {
     padding: 16px 0 0 16px;
 }
 
-.logo img {
+.sidebar__navigation .logo img {
     width: 80px;
 }
 
@@ -99,7 +99,7 @@ body {
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin: 8px 8px;
+    margin: 8px 0;
     padding: 16px 20px;
     border-radius: 10px;
 }
@@ -136,9 +136,9 @@ body {
     text-decoration: none;
     text-transform: mone;
     padding: 10px;
+    margin-top: 12px;
     border: 0px;
     width: 113px;
-    margin-top: 12px;
 }
 
 .sidebar .cookies{
@@ -147,6 +147,7 @@ body {
 
 .sidebar .cookies a{
     color: #b3b3b3;
+    font-family: "DM sans", sans-serif;
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
@@ -157,14 +158,54 @@ body {
 }
 
 .languages .languages__button{
+    align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
     color: #fff;
-    cursor: pointer;
-    align-items: center;
     font-weight: bold;
+    cursor: pointer;
     width: 170px;
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.disclainer-premium{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #101926, #2bdefd);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclainer-premium .text{
+    flex-shrink: 0;
+}
+
+.disclainer-premium .disclainer-premium__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclainer-premium .disclainer-premium__subtitle{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclainer-premium button{
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
