@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -42,7 +43,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library{
@@ -71,7 +71,6 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -112,7 +111,6 @@ body {
 .section-playlist__content .text{
     padding-bottom: 14px;
     color: #fff;   
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content .title{
@@ -170,7 +168,7 @@ body {
     border-radius: 20px;
 }
 
-.disclainer-premium{
+.disclaimer-premium{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -181,11 +179,11 @@ body {
     justify-content: space-between;
 }
 
-.disclainer-premium .text{
+.disclaimer-premium .text{
     flex-shrink: 0;
 }
 
-.disclainer-premium .disclainer-premium__title{
+.disclaimer-premium .disclaimer-premium__title{
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
@@ -193,13 +191,13 @@ body {
     margin-bottom: 10px;
 }
 
-.disclainer-premium .disclainer-premium__subtitle{
+.disclaimer-premium .disclaimer-premium__subtitle{
     color: #fff;
     font-size: 14px;
     font-weight: 500;
 }
 
-.disclainer-premium button{
+.disclaimer-premium button{
     background-color: #fff;
     color: #000;
     font-size: 16px;
